@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+.Title{
+    align-items: center;
+    margin-top: 10px;
+
+}
+.Wrapper {
+   
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 45%;
+    border: 0.1px;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: darkgrey;
+    align-items: center;
+    padding-left: 1%;
+    
+
+}
+
+.Content {
+    color: #000000;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    align-items: center;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+}
+
+.form-item{
+    color: #fefefe;
+    width: fit-content;
+    height: fit-content;
+    padding:0.1cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+}
+
+.form-left{
+    position: relative;
+    width: 25vw;
+    padding: 1cqmax;
+    border: 0.1px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 1%;
+    align-items: center;
+    height: 50vh;
+    flex: none;
+    align-content:space-around;
+    display:grid;
+    box-shadow: 5cm;
+
+}
+
+.form-right{
+    position: relative;
+    border: 0.1px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 1%;
+    height: 50vh;
+    flex:none;
+    display: grid;
+    align-content: space-around;
+    left: 0.5cm;    
+    padding: 1%;
+       
+   
+}
+
+ h1{
+    color: green;
+ }
+ h2,h3{
+    color: #000000;
+ }
+
+    h1, h2, h3{
+        align-content: center;
+    }
